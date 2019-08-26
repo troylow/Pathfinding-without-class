@@ -1,0 +1,25 @@
+#include <iostream>
+#include "functions.h"
+using namespace std;
+
+#define NO_INPUT 0
+#define EXIT 1
+#define ENTRANCE 2
+#define BLOCKED 3
+#define OPEN 4
+#define USED 5
+#define USER 6
+
+int main() {
+  std::cout << "Hello!\n";
+
+
+
+  int urow = 3;
+  int ucol = 1;
+  InMaze[3][1]=6;
+  createMaze();
+
+  walkFunc(urow, ucol);
+
+}
